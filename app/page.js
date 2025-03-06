@@ -15,8 +15,8 @@ const Page = () => {
             <Hero />
             <Productivity />
             <Success />
-            <Pricing />
-            <TopFooter />
+            {/* <Pricing /> */}
+            {/* <TopFooter /> */}
             <Footer />
         </main>
     )
