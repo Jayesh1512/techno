@@ -6,7 +6,7 @@ import logo3 from '../assets/icons/hero/logo-3.svg'
 const navLinks = [
   {
     id: 0,
-    title: "🌈 Product",
+    title: "Home",
     link: "/"
   },
   {
@@ -24,17 +24,17 @@ const navLinks = [
 const featured = [
   {
     id: 1,
-    name: "Fluid Glu",
+    name: "Founded by Apple, IIM & Engineering Experts",
     logo: logo1,
   },
   {
     id: 1,
-    name: "Hikenno",
+    name: "Precision AI Bots for Specific Business Tasks",
     logo: logo2,
   },
   {
     id: 1,
-    name: "Bubble",
+    name: "From Blockchain to SEO - End-to-End Digital Solutions",
     logo: logo3,
   },
 ];

@@ -1,6 +1,13 @@
 @import "tailwindcss";
 
 
+.bg{
+  background-image: url('/bg.png');
+  background-position: center;
+  background-size: cover;
+
+}
+
 .text-dark {
   color: #d3e763;
 }

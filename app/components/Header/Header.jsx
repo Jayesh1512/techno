@@ -6,17 +6,13 @@ import logo from '../../assets/logo.svg'
 import Button from '../Button/Button'
 
 
-const Header = () => {
-
-
-    
-    
+const Header = () => {    
     return (
       <nav className="relative py-10 w-full md:w-[75%] mx-auto flex items-center justify-center">
         {/* logo div */}
         <div className="logo left-5 md:left-0 absolute-v-middle flex items-center justify-center gap-2">
-          <Image src={logo} alt="logo" />
-          <span className="font-bold">b&W</span>
+          {/* <Image src={logo} alt="logo" /> */}
+          <span className="font-bold">The Technobytes</span>
         </div>
 
         <ul className="max-md:hidden flex items-center gap-8">
