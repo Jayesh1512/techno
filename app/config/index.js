@@ -11,8 +11,8 @@ const navLinks = [
   },
   {
     id: 1,
-    title: "Company",
-    link: "/"
+    title: "About Us",
+    link: "/about-us"
   },
   {
     id: 2,
