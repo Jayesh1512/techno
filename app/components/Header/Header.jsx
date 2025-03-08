@@ -4,8 +4,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../../assets/logo.svg'
 import Button from '../Button/Button'
-
-
 const Header = () => {    
     return (
       <nav className="relative py-10 w-full md:w-[75%] mx-auto flex items-center justify-center">
