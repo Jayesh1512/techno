@@ -25,7 +25,7 @@ const Header = () => {
         </ul>
 
         {/* join now button */}
-        <div className="logo right-5 md:right-0 absolute-v-middle flex items-center justify-center gap-2">
+        <div className="logo right-5 md:right-0 absolute-v-middle flex items-center justify-center gap-2 cursor-pointer duration-300  hover:scale-105">
           <Button
             text={"Join Now"}
             className={"px-5 py-2"}

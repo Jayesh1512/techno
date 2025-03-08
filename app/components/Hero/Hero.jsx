@@ -45,7 +45,7 @@ const Hero = () => {
           task-specific AI bots
         </h2>
 
-        <button className="bg-white font-bold text-black inline mx-auto px-8 py-4 rounded-full">
+        <button className="bg-white font-bold duration-300 cursor-pointer hover:scale-105 text-black inline mx-auto px-8 py-4 rounded-full">
           Explore Our Solutions
         </button>
 
