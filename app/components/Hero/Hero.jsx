@@ -5,7 +5,7 @@ import Tag from '../Button/Tag';
 import plus from '../../assets/images/hero/plus-bg.svg'
 import right from '../../assets/icons/hero/lines.png'
 import left from '../../assets/icons/hero/star.svg'
-
+  
 const Hero = () => {
 
   return (
@@ -59,7 +59,7 @@ const Hero = () => {
             {config.featured.map((item, index) => (
               <li
                 key={index}
-                className="flex items-center gap-2 mx-2 bg-[#313131] rounded-xl py-2 px-4 flex-col"
+                className="flex items-center  gap-2 mx-2 bg-[#313131] rounded-xl py-4 px-4 flex-col"
               >
                 <Image
                   src={item.logo}

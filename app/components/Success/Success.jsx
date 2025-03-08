@@ -5,32 +5,37 @@ import Tag from '../Button/Tag';
 import Image from 'next/image';
 import TopCard from './TopCard';
 import graph from '../../assets/images/success/graph2.svg';
+import img1 from '../../assets/icons/solution/img1.svg'
+import img2 from '../../assets/icons/solution/img2.png'
+import img3 from '../../assets/icons/solution/img3.png'
+import img4 from '../../assets/icons/companies/logo-4.svg'
 
 const successItems = [
   {
     id: 1,
     text: "AI Task Bots (Code Generator, Content Optimizer)",
-    logo: "../../assets/icons/success/logo-1.svg",
+    logo: img1,
   },
   {
     id: 2,
     text: "App/Widget Development",
-    logo: "/icons/success/logo-2.svg",
+    logo: img2,
   },
   {
     id: 3,
     text: "Blockchain Integration",
-    logo: "/icons/success/logo-3.svg",
+    logo: img3,
   },
   {
     id: 4,
-    text: "Digital Foundation Services (SEO/Content/Websites)",
-    logo: "/icons/success/logo-3.svg",
+    text: "Digital Foundation Services (SEO/Content/ Websites)",
+    logo: img4,
   },
 ];
 
+
 const companyLogos = [
-  "/icons/companies/logo-1.svg",
+  "../../icons/companies/logo-1.svg",
   "/icons/companies/logo-2.svg",
   "/icons/companies/logo-3.svg",
   "/icons/companies/logo-4.svg",
@@ -100,7 +105,7 @@ const InteractiveCard = ({ logo, text }) => {
       className="flex flex-col items-center gap-3 bg p-6  shadow-lg rounded-xl transition-all duration-300 hover:shadow-2xl hover:from-gray-800 hover:to-gray-700"
     >
       <div className="logo gray-gradient p-5 rounded-full">
-        <Image src={graph} width={40} height={40} alt="logo" className="w-[40px] h-[40px]" />
+        <Image src={logo.src} width={40} height={40} alt="logo" className="w-[40px] h-[40px]" />
       </div>
       <p className="text-center w-3/4 text-lg font-medium">{text}</p>
     </motion.div>
