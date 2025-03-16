@@ -7,11 +7,11 @@ import AboutUs from './components/about-us/AboutUs';
 
 const Page = () => {
     return (
-        <main className='bg-black min-h-screen  overflox-x-hidden text-white'>
+        <main className='bg-black min-h-screen  overflow-x-hidden text-white'>
             <Hero />
-            <AboutUs />
             <Productivity />
             <Success />
+            <AboutUs />
         </main>
     )
 }
